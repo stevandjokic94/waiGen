@@ -207,6 +207,9 @@ body {
 	background-color: #446ECD;
 	color: white;
 }
+.rounded-img{
+	border-radius: 50% !important;
+}
 /*.parallax-window {
     min-height: 100px;
     background: transparent;

@@ -27,11 +27,11 @@ function closeNav() {
 	$('body').removeClass('overlayBody');
 }
 
-$(window).resize(() => {
-	let presentation = $('#presentation');
-	console.log(window.screen.width);
-	presentation[0].height = window.screen.width * .9;
-	presentation[0].width = window.screen.width * .9;
-	console.log(presentation[0].height);
-	console.log(presentation[0].width);
-});
+// $(window).resize(() => {
+// 	let presentation = $('#presentation');
+// 	console.log(window.screen.width);
+// 	presentation[0].height = window.screen.width * .9;
+// 	presentation[0].width = window.screen.width * .9;
+// 	console.log(presentation[0].height);
+// 	console.log(presentation[0].width);
+// });

@@ -8,6 +8,7 @@ $(document).ready(function(){
 
 $('#loader').fadeOut('slow');
   $('#content').fadeIn('slow');
+  $('#content2').fadeIn('slow');
   setTimeout(() => { 
   	AOS.refresh();
   }, 500);

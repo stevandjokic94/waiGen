@@ -179,7 +179,7 @@ body {
   transform: scaleX(1);
 }
 .slick-next{
-	right: 35px;
+	right: 20px;
 }
 .slick-prev{
 	left: 10px;
@@ -190,6 +190,9 @@ body {
 }
 #content{
 	display: none;
+}
+.headerLink:hover{
+	cursor: pointer;
 }
 .parallax-window{
 	background: transparent;

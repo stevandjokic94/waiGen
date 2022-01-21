@@ -188,6 +188,12 @@ body {
 .slick-prev:before, .slick-next:before{
 	height: 40px;
 }
+.about > div > button.slick-next:before{
+  color: #446ECD;
+}
+.about > div > button.slick-prev:before{
+  color: #446ECD;
+}
 #content{
 	display: none;
 }
@@ -221,6 +227,22 @@ body {
 }
 .rounded-img{
 	border-radius: 50% !important;
+}
+.img-with-text {
+  position: relative;
+  /*Maximum width */
+  /*max-width: 800px;  */
+  margin: 0 auto; /* Center it */
+}
+
+.img-with-text .text-content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
 }
 /*.parallax-window {
     min-height: 100px;
